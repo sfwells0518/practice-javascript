@@ -110,8 +110,21 @@ function factorial(number) {
   return result;
 }
 
-const number = 6;
+var number = 6;
 console.log(factorial(6));
 
 // # Write a method that accepts two arrays of numbers, and prints the sum of every combination of numbers from first and second array.
 // # For example, if the method receives [1, 5, 10] and [100, 500, 1000], the method should print a list: 101, 501, 1001, 105, 505, 1005, 110, 510, 1010].
+
+function printSums(array1, array2) {
+
+  for (let i = 0; i < array1.length; i++) {
+    for (let j = 0; j < array2.length; j++) {
+      let sum = array1[i] + array2[j];
+      console.log(sum);
+    }
+  }
+}
+var array1 = [1, 5, 10];
+var array2 = [100, 500, 1000];
+printSums(array1, array2);
