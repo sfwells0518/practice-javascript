@@ -128,3 +128,8 @@ function printSums(array1, array2) {
 var array1 = [1, 5, 10];
 var array2 = [100, 500, 1000];
 printSums(array1, array2);
+
+
+
+
+
